@@ -1,0 +1,113 @@
+body{
+    background: #EDF3F8;
+    list-style: none;
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.header{
+    position: relative;
+    margin: 0 auto;
+    padding: 30px 0;
+    list-style: none;
+    text-decoration: none;
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position:right 30px  top 20px;
+    width: 1140px;
+ 
+    &__text{
+        font-family: DM Serif Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 72px;
+/* or 100% */
+
+letter-spacing: -0.553846px;
+
+color: #36536B;
+ width: 500px;
+
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        padding: 10px 30px;  
+    }
+    &__submit{
+        background: #BA4270;
+border-radius: 24px;
+width: 170px;
+height: 44px;
+border: none;
+// margin-right: 40px;
+position: absolute;
+right: 720px;
+    }
+    &__text__row{
+        font-family: Public Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #6C8294;
+    }
+    &__input{
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-radius:20px;
+        padding: 2px 9px;
+        }
+    &__include{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 60px;
+    }
+    &__img{
+        width: 400px;
+    }
+    &__btn{
+        background: #BA4270;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        border: none;
+        width: 150px;
+        height: 40px;
+        margin-left: -30px;
+        cursor: pointer;
+        &:active{
+            background: #DA6D97;
+
+        }
+    }
+}
+.info{
+    margin-left: 50px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+// .header__btn:active{
+//     background: #DA6D97;
+// }
+.header__textItem{
+    cursor: pointer;
+    color:#36536B;
+}
+.header__textItem:active{
+    color:#1670b9;
+}

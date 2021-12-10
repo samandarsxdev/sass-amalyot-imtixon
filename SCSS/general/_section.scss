@@ -1,0 +1,77 @@
+.section{
+    // padding: 0;
+    // margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+    background:url("/img/background2.webp") no-repeat;
+    background-size:100% 100%;
+    &__text{
+        font-family: DM Serif Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 56px;
+        /* identical to box height, or 117% */
+        
+        letter-spacing: -0.369231px;
+        
+        color: #FBFCFE;
+        width: 400px;
+    }
+    &__row{
+        width: 40%;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    &__img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__logo{
+        margin-top: 60px;
+    }
+    &__textLes{
+        font-family: Public Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+
+
+color: #FBFCFE;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+width: 400px;
+    }
+    
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.section_btn{
+    border: 1px solid #FBFCFE;
+        box-sizing: border-box;
+        border-radius: 24px;
+        border: 1px solid #FBFCFE;
+        background:none;
+        width: 120px;
+        height: 30px;
+        margin-top: 20px;
+        cursor: pointer;
+        &:active{
+            background: #FFFFFF;
+border: 1px solid #FBFCFE;
+box-sizing: border-box;
+border-radius: 24px;
+        }
+}
